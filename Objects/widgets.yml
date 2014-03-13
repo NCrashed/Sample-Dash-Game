@@ -1,16 +1,11 @@
 -
-    Name: Widget1
-    InstanceOf: SupaFab
-    Parent: DudeBrah
-    Transform:
-        Position: !Vector3 -8 0 25
-        Scale: !Vector3 1 1 1
-        Rotation: !Vector3 -90 0 0
+    Name: Particleseseses
+    Script:
+        ClassName: garbageparticles.ParticleEmitter
 -
-    Name: Widget2
-    InstanceOf: SupaFab
-    Parent: DudeBrah
+    Name: Background
+    Mesh: unitsquare
+    Material: brickmat
     Transform:
-        Position: !Vector3 -14 0 25
-        Scale: !Vector3 1 1 1
-        Rotation: !Vector3 -90 0 0
+        Position: !Vector3 0 0 -90
+        Scale: !Vector3 200 200 200
